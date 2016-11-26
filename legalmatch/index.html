@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>LEGAL MATCH</title>
+<meta charset="iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="assets/css/mediaqueries.css" type="text/css" media="all">
+<link rel="stylesheet" href="assets/css/jqx.base.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="assets/css/layout.css" type="text/css" media="all">
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/js/jqxcore.js"></script>
+<script src="assets/js/jqxdata.js"></script>
+<script src="assets/js/jqxinput.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<!--<script src="assets/js/jquery-mobilemenu.min.js"></script>-->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="styles/ie.css" type="text/css" media="all">
+<script src="assets/js/ie/css3-mediaqueries.min.js"></script>
+<script src="assets/js/ie/ie9.js"></script>
+<script src="assets/js/ie/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- Header -->
+<div class="wrapper header-wrapper">
+  <header id="header" class="clear">
+    <div id="logo" class="left"><a href="#"><img src="assets/img/logo.png" alt="Legal Match" /></a></div>
+    <div class="right"><img src="assets/img/header-img.jpg" alt="Header Image" /></div>
+  </header>
+</div><!--/end header-wrapper-->
+
+<!-- Content -->
+<div class="wrapper content-wrapper">
+  <div id="container">
+    <h1>Find a Lawyer for your Legal Issue</h1>
+    <h2>Fast, Free and Confidential</h2>
+    <!-- Modal Category-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title" id="myModalLabel"><span class="num">3</span> Which <span id="selectBoxval"></span> issue(s) apply to your case?</h3>
+          </div>
+          <div class="modal-body">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Adoption</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Guardianship</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Child Custody and Visitation</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Paternity</label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Child Support</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Separations</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Divorce</label>
+              </div>
+              <div class="checkbox">
+                <label><input type="checkbox" value="">Spousal Support or Alimony</label>
+              </div>
+            </div>
+          </div>
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">FIND A LAWYER NOW</button>
+          </div>
+        </div>
+      </div>
+    </div><!--/end modal category-->
+    <!-- Modal OtherCategory-->
+    <div class="modal fade" id="otherModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">OTHER CATEGORIES</h4>
+            <p class="subhead">Choose the category that best fits you</p>
+          </div>
+          <div class="modal-body">
+            <div class="row list-other-cat">
+              <div class="col-sm-6">
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+              </div>
+              <div class="col-sm-6">
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div><!--/end modal other category-->
+    <!-- Modal Client Reviews-->
+    <div class="modal fade" id="reviewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Client Reviews</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row list-other-cat">
+              <div class="col-sm-6">
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+              </div>
+              <div class="col-sm-6">
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+                <div><a href="">Lorem Ipsum</a></div>
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div><!--/end client review-->
+    <div class="row clear">
+      <div class="col-sm-6">
+        <div class="input-form-group">
+          <div class="inputForm">
+            <h3>Enter Zip Code or City</h3>
+            <div class="input-wrapper">
+              <span class="num">1</span>
+              <input type="text" id="input"/>
+            </div>
+          </div>
+          <div class="inputForm">
+            <h3>Choose a category</h3>  
+            <div class="input-wrapper">
+              <span class="num">2</span>  
+              <select id="select-me" class="form-control selectpicker" onchange="document.getElementById('selectBoxval').innerHTML=this.value">
+                <option value="" disabled selected hidden>Click to choose a legal category</option>
+                <option data-toggle="modal" data-target="#myModal" value="Family">Family</option>
+                <option data-toggle="modal" data-target="#myModal" value="Criminal Defense">Criminal Defense</option>
+                <option data-toggle="modal" data-target="#myModal" value="Business">Business</option>
+                <option data-toggle="modal" data-target="#myModal" value="Personal Injury">Personal Injury</option>
+                <option data-toggle="modal" data-target="#myModal" value="Bankruptcy Finances">Bankruptcy & Finances</option>
+                <option data-toggle="modal" data-target="#myModal" value="Products Services">Products & Services</option>
+                <option data-toggle="modal" data-target="#myModal" value="Employment">Employment</option>
+                <option data-toggle="modal" data-target="#myModal" value="Real Estate">Real Estate</option>
+                <option data-toggle="modal" data-target="#myModal" value="Immigration">Immigration</option> 
+                <option data-toggle="modal" data-target="#myModal" value="Wills, Trusts & Estates">Wills, Trusts & Estates</option>
+                <option data-toggle="modal" data-target="#myModal" value="Government">Government</option>
+                <option data-toggle="modal" data-target="#myModal" value="Intellectual Property">Intellectual Property</option>
+              </select>
+            </div>
+          </div>
+          <p class="other-cat">Can't find your category? <span data-toggle="modal" data-target="#otherModal">Click here.</span></p>
+        </div><!--/end input-form-group-->        
+      </div>
+      <div class="col-sm-6">
+        <div class="lawyer-group">
+            <h3>Clients review LegalMatch lawyers</h3>
+            <div class="row lawyer">
+              <div class="col-sm-3">
+                <img src="assets/img/mitchell.png" alt="Mitchell" />
+                <p class="name">Mitchell M.</p>
+                <p class="loc">Cherry Hill, NJ</p>
+              </div>
+              <div class="col-sm-9">
+                <div class="specialty">
+                  Family Law
+                  <span class="rating"><img src="assets/img/star.png" alt="Mitchell" /></span>
+                  <span class="rating"><img src="assets/img/star.png" alt="Mitchell" /></span>
+                  <span class="rating"><img src="assets/img/star.png" alt="Mitchell" /></span>
+                  <span class="rating"><img src="assets/img/star.png" alt="Mitchell" /></span>
+                </div>
+                <p class="excerpt">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"</p>
+                <span class="read-review" data-toggle="modal" data-target="#reviewModal">Read Review</span>
+              </div>
+          </div>          
+        </div><!--/end input-form-group-->
+      </div>
+    </div><!--/row-->
+  </div>
+</div><!--/end content-wrapper-->
+
+<!-- Footer -->
+<div class="wrapper footer-wrapper">
+  <footer id="footer" class="clear">
+    <div class="row">
+      <div class="col-sm-4"><img src="assets/img/footer-logo.jpg" alt="Legal Match"/ ></div>
+      <div class="col-sm-4">
+        <ul>
+          <li><a href="">User Agreement</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Site Map</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <p><img src="assets/img/footer-logo-1.jpg" alt="Legal Match"/ ></p>
+        <p><img src="assets/img/footer-logo-2.jpg" alt="Legal Match"/ ></p>
+      </div>
+    </div>
+  </footer><!--/end footer-wrapper-->
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+      
+      var timer;
+
+      $("#input").jqxInput({ placeHolder: "Does not have to be where you live",  
+          source: function (query, response) {
+              var dataAdapter = new $.jqx.dataAdapter
+              (
+                  {
+                      datatype: "jsonp",
+                      datafields:
+                      [
+                          { name: 'postalCode' }, { name: 'name' },
+                          //{ name: 'population', type: 'float' },
+                          { name: 'placename' },
+                          { name: 'adminName1' }
+                      ],
+                      url: "http://api.geonames.org/postalCodeSearchJSON",
+                      data:
+                      {
+                        featureClass: "P",
+                          style: "full",
+                          maxRows: 12,
+                          username: "jqwidgets"
+                      }
+                  },
+                  {
+                      autoBind: true,
+                      formatData: function (data) {
+                          data.placename_startsWith = query;
+                          return data;
+                      },
+                      loadComplete: function (data) {
+                          if (data.postalCodes.length > 0) {
+                              response($.map(data.postalCodes, function (item) {
+                                  return {
+                                      label: item.placeName + (item.adminCode1 ? ", " + item.adminCode1 : "") + " " + item.postalCode,
+                                      value: item.postalCode
+                                  }
+                              }));
+                          }
+                      }
+                  }
+              );
+          }
+      });
+      $("#select-me").on('change', function() {
+          $("#myModal").modal('show');
+      });
+  });
+</script>
+</body>
+</html>

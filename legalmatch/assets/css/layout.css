@@ -1,0 +1,397 @@
+/*
+Responsive Template Name: RS-MQF 940 V.2
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@font-face {
+    font-family: "GothamLight";
+    src: url("../fonts/Gotham-Light.otf");
+}
+@font-face {
+    font-family: "GothamThin";
+    src: url("../fonts/Gotham-Thin.otf");
+}
+@font-face {
+    font-family: "GothamMedium";
+    src: url("../fonts/Gotham-Medium.otf");
+}
+@font-face {
+    font-family: "GothamBook";
+    src: url("../fonts/Gotham-Book.otf");
+}
+@font-face {
+    font-family: "GothamIta";
+    src: url("../fonts/Gotham-BookIta.otf");
+}
+html {
+    overflow-y: scroll;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "GothamMedium";
+    color: #919191;
+}
+.justify {
+    text-align: justify;
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.nostart {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+.clear {
+    display: block;
+    clear: both;
+}
+.clear:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    content: "";
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: normal;
+    vertical-align: middle;
+}
+.imgholder,
+.imgl,
+.imgr {
+    padding: 4px;
+    border: 1px solid #D6D6D6;
+    text-align: center;
+}
+.imgl {
+    float: left;
+    margin: 0 15px 15px 0;
+    clear: left;
+}
+.imgr {
+    float: right;
+    margin: 0 0 15px 15px;
+    clear: right;
+}
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.row2 {
+    color: #919191;
+    background-color: #232323;
+}
+.row3 {
+    color: #979797;
+    background-color: #FFFFFF;
+}
+.row3 a {
+    color: #FF9900;
+    background-color: #FFFFFF;
+}
+.row4,
+.row4 a {
+    color: #919191;
+    background-color: #232323;
+}
+/*----------------------------------------------Generalise-------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 ;
+    padding: 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+}
+h1 {
+	font-family: "GothamLight"; 
+	font-size: 42px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 18px;
+	padding: 0 0 13px 10px;
+}
+address {
+    font-style: normal;
+}
+blockquote,
+q {
+    display: block;
+    padding: 8px 10px;
+    color: #979797;
+    background-color: #ECECEC;
+    font-style: italic;
+    line-height: normal;
+}
+blockquote:before,
+q:before {
+    content: '“ ';
+    font-size: 26px;
+}
+blockquote:after,
+q:after {
+    content: ' „';
+    font-size: 26px;
+    line-height: 0;
+}
+#header,
+#topnav,
+#container,
+#footer,
+#copyright {
+    margin: 0 auto;
+    font-size: .8em;
+}
+/*----------------------------------------------Header-------------------------------------*/
+
+.header-wrapper {
+    background-color: #FFFFFF;
+    height: 90px;
+}
+#logo {
+	padding-top: 22px;
+}
+#header #hgroup {
+    display: block;
+    float: left;
+    width: auto;
+    clear: right;
+}
+#header #hgroup h1,
+#header #hgroup h2 {
+    margin: 0;
+    font-weight: normal;
+    text-transform: none;
+}
+#header #hgroup h1 {
+    font-size: 2.5em;
+}
+#header #hgroup h2 {
+    font-size: 1em;
+}
+/*----------------------------------------------Content Area-------------------------------------*/
+
+.content-wrapper {
+ background: url("../img/main-bg.jpg") no-repeat 0 0 #FFFFFF;
+}
+#container {
+    padding: 30px 0;
+    clear: both;
+}
+.inputForm {
+	margin-top: 50px;
+	position: relative;
+}
+.form-control {
+	border-radius: 30px;
+	height: 65px;
+	width: 515px;
+	box-sizing: border-box;
+	color: #919498;
+	padding-left: 70px;
+	font-size: 14px;
+}
+.input-wrapper span.num,
+.modal-title span.num {
+	width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background: #d68d00;
+    display: inline-block;
+    position: absolute;
+    margin: 16px;
+}
+.modal-title { 
+	color: #4e555c;
+    position: relative;
+    padding: 15px 0 0 55px;    
+    font-size: 16px;
+}
+#selectBoxval {
+	font-weight: bolder;
+}
+.modal-title span.num{
+    left: 15px;
+    top: 10px;
+    margin: 0;
+}
+.modal-header,
+.modal-footer { border: none;  }
+.checkbox label {
+    font-size: 12px;
+    color: #4e555c;
+    font-family: "GothamLight"; 
+}
+.checkbox {
+	margin: 15px 0;
+}
+.modal-body {
+    padding: 0 43px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #032d6d;
+    border-radius: 22px;
+    padding: 15px 24px;
+    font-size: 13px;
+}
+.modal-footer { text-align: center; }
+p.other-cat {
+    color: #fff;
+    font-family: "GothamLight";
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+}
+p.other-cat span {
+	cursor: pointer;
+    border-bottom: 1px #fff dotted;
+}
+.list-other-cat a {
+	color: #1864af;
+    font-size: 12px;
+    font-family: "GothamLight";
+    line-height: 24px;
+}
+#otherModal .modal-body {
+	padding: 0 15px;
+}
+.subhead {
+    font-size: 12px;
+    font-family: "GothamLight";
+    color: #777;
+}
+#otherModal .modal-title {
+    padding-left: 0;
+}
+#otherModal .modal-header {
+    padding-bottom: 5px;
+}
+#otherModal .modal-content {
+    padding: 0 15px 30px;
+}
+.lawyer-group h3 {
+    font-size: 20px;
+    font-family: "GothamBook";
+    padding-bottom: 20px;
+    padding-left: 0;
+}
+
+p.name {
+    margin: 5px 0 0;
+    font-size: 13px;
+    color: #fff;
+}
+
+.lawyer .col-sm-3 {
+    text-align: center;
+}
+
+p.loc {
+    font-size: 11px;
+    color: #dadada;
+}
+
+.specialty {
+    color: #fff;
+    font-size: 12px;
+}
+
+span.rating {
+    display: inline-block;
+    vertical-align: top;
+}
+
+p.excerpt {
+    color: #e4e4e4;
+    font-size: 11px;
+    font-family: "GothamIta";
+    padding-top: 10px;
+}
+
+.read-review {
+    color: #fbd243;
+    font-size: 10px;
+    font-family: "GothamBook";
+    text-align: right;
+    float: right;
+    background: url(../img/read-icon.png) no-repeat 100% 50%;
+    display: inline-block;
+    padding-right: 18px;
+    cursor: pointer;
+}
+/*----------------------------------------------Footer-------------------------------------*/
+.footer-wrapper {
+	height: 240px;
+}
+#footer {
+    padding: 20px 0;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+}
